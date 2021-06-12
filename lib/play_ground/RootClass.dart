@@ -22,7 +22,8 @@ class RootClass extends State<RootedClass> {
         title: Text("Home"),
       ),
       body: Column(
-        children: [Text(data), MyElevatedBtn(updateText)],
+        children: [   
+          Text(data), MyElevatedBtn(updateText)],
       ),
     ));
     ;
